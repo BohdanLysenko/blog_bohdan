@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+      http://www.liquibase.org/xml/ns/pro
+      http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd">
+    <include file="db/changelog/changeset/create-table-user.xml"/>
+    <include file="db/changelog/changeset/create-posts.xml"/>
+    <include file="db/changelog/changeset/create-roles.xml"/>
+    <include file="db/changelog/changeset/create-comments.xml"/>
+    <include file="db/changelog/changeset/create-tags.xml"/>
+    <include file="db/changelog/changeset/create-user-constraints.xml"/>
+    <include file="db/changelog/changeset/create-post-constraints.xml"/>
+    <include file="db/changelog/changeset/create-comment-constraints.xml"/>
+    <include file="db/changelog/changeset/create-tags-constraints.xml"/>
+    <include file="migration/populate-roles.sql"/>
+    <include file="migration/populate-users.sql"/>
+    <include file="migration/populate-posts.sql"/>
+    <include file="migration/populate-comments.sql"/>
+    <include file="migration/populate-tags.sql"/>
+    <include file="db/changelog/changeset/create-user-id-increment.xml"/>
+    <include file="db/changelog/changeset/create-post-id-increment.xml"/>
+    <include file="db/changelog/changeset/create-role-id-increment.xml"/>
+    <include file="db/changelog/changeset/create-comment-id-increment.xml"/>
+    <include file="db/changelog/changeset/create-tag-id-increment.xml"/>
+
+</databaseChangeLog>

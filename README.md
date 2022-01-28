@@ -36,7 +36,7 @@ Resources in the application must be restricted via the following role matrix.
 | *__Posts of Current User__*                        |       |           |         |     |
 | See all posts assosiated with current user.        | V     | V         | V       |     |
 | See specific post assosiated with current user.    | V     | V         | V       |     |
-| Update Post assosiated with current user.          | V     | V         | V       |     |
+| Update Post associated with current user.          | V     | V         | V       |     |
 | Delete Post assosiated with current user.          | V     | V         | V       |     |
 | *__User management__*                              |       |           |         |     |
 | Create new User.                                   | V     | V         | V       | V   |
